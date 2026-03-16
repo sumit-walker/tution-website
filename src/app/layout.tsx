@@ -1,8 +1,8 @@
 import "./globals.css";
 import type { ReactNode } from "react";
-import { MotionProvider } from "@/components/MotionProvider";
-import { ThemeProvider } from "@/components/ThemeProvider";
-import { ClientOnly } from "@/components/ClientOnly";
+import { ThemeProvider } from "../components/ThemeProvider";
+import { ClientOnly } from "../components/ClientOnly";
+import { MotionProvider } from "../components/MotionProvider";
 
 export const metadata = {
   title: "Tuition Classes - Modern Coaching",
