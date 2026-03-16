@@ -1,9 +1,9 @@
 "use client";
-import { EmailContactForm } from "@/components/EmailContactForm";
+import { EmailContactForm } from "../components/EmailContactForm";
 
 import { animate, motion, useInView } from "framer-motion";
 import { useEffect, useRef, useState } from "react";
-import { useTheme } from "@/components/ThemeProvider";
+import { useTheme } from "../components/ThemeProvider";
 
 type Feedback = {
   name: string;
@@ -172,12 +172,12 @@ export default function HomePage() {
               Join Our <span className="text-brand-400">Tuition Classes</span>
             </h1>
             <p className="max-w-xl text-sm leading-relaxed text-slate-600 dark:text-slate-300 sm:text-base">
-              Learn with{" "}
+              Learn with
               <span className="font-semibold text-slate-900 dark:text-slate-100">
                 Mr. Sharma
-              </span>
-              , an experienced teacher helping students build strong concepts in{" "}
-              <span className="font-medium">Mathematics, Science, and English</span>{" "}
+              </span>,
+              an experienced teacher helping students build strong concepts in
+              <span className="font-medium">Mathematics, Science, and English</span>
               with clear explanations, regular practice, and personal attention.
             </p>
           </div>
