@@ -17,7 +17,7 @@ const fadeInUp = {
   visible: { opacity: 1, y: 0 },
 };
 
-const sectionTransition = { duration: 0.6, ease: "easeOut" };
+const sectionTransition = { duration: 0.6 };
 
 type StatCardProps = {
   label: string;
